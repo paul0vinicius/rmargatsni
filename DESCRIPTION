@@ -1,0 +1,21 @@
+Package: rmargatsni
+Type: Package
+Title: Wraps the Instagram API for data analysis
+Version: 0.1.0
+Authors@R: c(
+    person("Paulo Vinícius", "Soares", , "paulo.soares@ccc.ufcg.edu.br", c("aut", "cre")),
+    person("Ítalo", "Batista", , "italo.batista@ccc.ufcg.edu.br", c("aut")),
+    person("Martha", "Menezes", , "martha.menezes@ccc.ufcg.edu.br", c("aut")),
+    person("Luiz", "Fonseca", , "luiz.fonseca@ccc.ufcg.edu.br", c("aut"))
+    )
+Description: Provides data about media, relationships, likes, locations and tags in data frames.
+URL: https://github.com/paul0vinicius/rmargatsni
+BugReports: https://github.com/paul0vinicius/rmargatsni/issues
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: httr,
+    jsonlite,
+    magrittr,
+    tibble
+RoxygenNote: 6.0.1
